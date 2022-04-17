@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #3737f4;
+    color: #fff;
+    font-family: 'Trebuchet MS', Arial, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.genre-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid white;
+}
