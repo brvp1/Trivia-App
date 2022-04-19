@@ -1,19 +1,53 @@
 body {
     margin: 0;
     padding: 0;
-    background: #3737f4;
-    color: #fff;
-    font-family: 'Trebuchet MS', Arial, serif;
+    background: #049090;
+    color: #f6f6db;
+    font-family: 'ABeeZee', sans-serif;
+    /* Make everything centered */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* Make 'Let's play Jeopardy' and 'Score: ' stack on top of each other */
     flex-direction: column;
-    border: 2px solid black;
+    border: 3px solid yellow;
+}
+#game {
+    display: flex;
+}
+.genre-column {
+    /* So the boxes stack on each other */
+    display: flex;  
+    flex-direction: column;
+    /* Centered text */
+    text-align: center;
 }
 
-.genre-column {
-    display: flex;
-    flex-direction: column;
+.card {
+    width: 200px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #40e0d0;
     text-align: center;
-    border: 2px solid white;
+    border: 5px solid #f7a298;
+    padding: 5px;
+    margin: 10px;;
+    font-size: 100px;
+}
+
+.correct-answer {
+    background-color: #8fea8f;
+}
+
+.wrong-answer {
+    background-color: #f9988d;
+}
+.true-button {
+    background-color: #91e69b;
+}
+.false-button {
+    background-color: #b15656;
+}
+button {
+    margin: 10px;
 }
